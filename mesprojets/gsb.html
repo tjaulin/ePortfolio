@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- ====== HEAD ====== -->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Projet GSB</title>
+
+  <!-- Favicons -->
+  <link href="#" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Feuilles de style -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/mesProjetsPersonnelsStyle.css" rel="stylesheet">
+
+</head><!-- ====== FIN HEAD ====== -->
+
+<!-- ====== BODY ====== -->
+
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Thomas Jaulin</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#cv">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../stage.html">Stage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../mesprojets.html">Mes Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../veilletechno.html">Veille Technologique</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav><!-- ====== FIN NAVBAR ====== -->
+
+
+  
+  <!-- ======= Section Base de donnée ======= -->
+  <section id="bddGSB">
+    <div class="container">
+
+      <div class="section-title">
+        <h1>La base de donnée</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+            <img class="img-bdd" src="../img/bddgsb.png" alt="image de la bdd de gsb">
+        </div>
+        <div class="col-md-6">
+            <p>Les visiteurs médicaux auront la possibilité de se connecter, il faut donc prévoir un login et un mot de passe. </p>
+            <p>Une fiche frais est soit une dépense forfaitaire, soit une dépense non forfaitaire donc soit l’un, soit l’autre.</p>
+            <p>Une dépense forfaitaire à plusieurs types, il faudra donc créer une autre entité «type».</p>
+            <p>Une fiche frais aura plusieurs un seul état, mais changera d’état en fonction du temps (clôturée, valider, remboursée, etc..). </p>
+        </div>
+      </div>
+    </div>
+  </section><!-- Fin Section Base de donnée -->
+
+<!-- ======= Séparateur Section ======= -->
+<hr>
+<!-- ======= Fin Séparateur Section ======= -->
+
+  <!-- ======= Section Exemple de fonctionnement du site ======= -->
+  <section id="exFonctionnementSiteGSB">
+    <div class="container">
+        <div class="lesImagesGSB">
+            <div class="section-title">
+              <h1>Exemple de fonctionnement du site</h1>
+            </div>
+        
+            <div class="page-accueil">
+              <h2>Page d'accueil :</h2>
+              <img src="../img/gsb1.png" alt="exemple page accueil">
+            </div>
+        
+            <div class="liste-fiche-frais">
+              <h2>Liste des fiches de frais d'un visiteur médical :</h2>
+              <img src="../img/gsb2.png" alt="exemple liste fiche frais">
+            </div>
+        
+            <div class="depense-fiche-frais">
+              <h2>Exemple d'une fiche frais avec ses dépenses :</h2>
+              <img src="../img/gsb3.png" alt="exemple depense d'une fiche de frais">
+            </div>
+
+            <div class="fiche-frais-mois-en-cours">
+                <h2>Exemple d’une fiche de frais du mois en cours ou l’on peut rajouter des dépenses forfaitaires et hors forfait : </h2>
+                <img src="../img/gsb4.png" alt="exemple d'une fiche de frais du mois en cours">
+            </div>
+
+        </div>
+        <div class="lesDepensesGSB">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Ajout d’une dépense hors forfait :</h2>
+                    <img src="../img/gsb5A.png" alt="exemple depense hors forfait">
+                </div>
+                <div class="col-md-6">
+                    <h2>Ajout d’une dépense forfaitaire :</h2>
+                    <img src="../img/gsb5B.PNG" alt="exemple depense forfaitaire">
+                </div>
+            </div>
+          </div>
+    </div>
+  </section><!-- Fin Section Exemple de fonctionnement du site  -->
+  
+  <!-- ======= FOOTER ======= -->
+  <footer id="footer">
+    <div class="container">
+      
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/thomas-jaulin-07b93a197/" class="linkedin"><img src="../img/linkedin.png" /></a>
+      </div>
+
+      <div class="credits py-4 text-center">
+        Designed by <span>Thomas Jaulin</span>
+      </div>
+
+    </div>
+  </footer><!-- ======= FIN FOOTER ======= -->
+
+</body><!-- ====== FIN BODY ====== -->
+
+</html>

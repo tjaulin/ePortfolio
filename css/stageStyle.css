@@ -1,0 +1,408 @@
+/**
+* Template Name: Presento - v3.3.0
+* Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+  color: #e03a3c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e76668;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+.navbar .navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.navbar .navbar-brand {
+  font-size: 2em;
+  font-family: "Raleway", sans-serif;
+  margin-left: 100px;
+}
+
+.navbar .container-fluid a:hover, .navbar .navbar .container-fluid .navbar-collapse .navbar-nav .active, .navbar .active:focus, .navbar li:hover > a, .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item a:hover {
+  color: #e03a3c;
+}
+
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: 0.5s;
+}
+
+.navbar .navbar-collapse .nav-link{
+  font-size: medium;
+  margin-right: 15px;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+/**
+* Navigation sur PC 
+
+.navbar {
+  padding: 2;
+}
+
+.navbar-brand{
+  font-size: 6em;
+}
+
+.navbar .container-fluid .navbar-brand .navbar-collapse ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #e03a3c;
+  white-space: nowrap;
+  transition: 0.5s;
+}
+
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar .container-fluid a:hover, .navbar .navbar .container-fluid .navbar-collapse .navbar-nav .active, .navbar .active:focus, .navbar li:hover > a, .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item a:hover {
+  color: #e03a3c;
+}
+
+
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+  .navbar .dropdown .dropdown:hover > ul {
+    left: -100%;
+  }
+}
+*/
+/**
+* Navigation sur mobile 
+
+.mobile-nav-toggle {
+  color: #111111;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+
+.mobile-nav-toggle.bi-x {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+}
+
+.navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  transition: 0.3s;
+  z-index: 999;
+}
+
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+
+.navbar-mobile a {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #111111;
+}
+
+.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+  color: #e03a3c;
+}
+
+.navbar-mobile .getstarted {
+  margin: 15px;
+}
+
+.navbar-mobile .dropdown ul {
+  position: static;
+  display: none;
+  margin: 10px 20px;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+
+.navbar-mobile .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar-mobile .dropdown ul a {
+  padding: 10px 20px;
+}
+
+.navbar-mobile .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+  color: #e03a3c;
+}
+
+.navbar-mobile .dropdown > .dropdown-active {
+  display: block;
+}
+*/
+
+/*--------------------------------------------------------------
+# Sections Présentation Stage
+--------------------------------------------------------------*/
+#presStage .presCFL {
+    margin-top: 5em;
+}
+
+#presStage .presCFL img {
+    width: 450px;
+}
+
+#presStage .presCFL h2, #presStage .missionsCFL h2 {
+    color: #e03a3c;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Sections les Différentes Parties
+--------------------------------------------------------------*/
+#diffParties .premPartie, #diffParties .deuxPartie  {
+    display: flex;
+    justify-content: space-around;
+}
+
+#diffParties .premPartie {
+    margin-bottom: 5em;
+}
+
+#diffParties .deuxPartie .asterix {
+    text-align: center;
+    font-size: x-small;
+}
+
+
+/*--------------------------------------------------------------
+# Sections cards [GENERAL]
+--------------------------------------------------------------*/
+/* .card{
+    background-image: url('../img/greyzz.png');
+} */
+
+.card .card-body .card-title {
+    text-align: center;
+    color: #e03a3c;
+}
+.card a {
+    color: black;
+    margin-top: 1em;
+    border: 2px solid #e03a3c;
+    transition: 0.5s;
+    background-color: transparent;
+    margin-left: 100px;
+}
+.card .card-body a:hover{
+    color: black;
+}
+.card a:hover {
+    color: #e03a3c;
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.section-title h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h1::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #e03a3c;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #e03a3c;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.section-bg {
+  padding: 120px 0;
+  color: #fff;
+}
+
+.section-bg:before {
+  content: "";
+  background: #1b1b1b;
+  position: absolute;
+  bottom: 60px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  transform: skewY(-3deg);
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+  color: #fff;
+  font-size: 14px;
+  background: #111111;
+}
+
+#footer .credits span {
+  color: #e03a3c;
+}
+
+#footer .credits {
+  font-size: 13px;
+}
+
+
+#footer .social-links {
+  padding-top: 10px;
+}
+
+#footer .social-links a {
+  background-color: #2b2b2b;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 625px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #0A66C2;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .linkedin img{
+  width: 25px;
+  height: 25px;
+}
