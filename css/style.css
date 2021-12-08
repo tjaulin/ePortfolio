@@ -241,6 +241,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #e03a3c;
 }
 
+.contenuAPropos li{
+  margin: 2%;
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -423,9 +427,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Section Apres BTS
+# Section Apres Bachelor
 --------------------------------------------------------------*/
-#apresBTS p{
+#apresBachelor p{
   position: relative;
 }
 
