@@ -247,6 +247,10 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url('../img/greyzz.png');
 } */
 
+
+.card {
+  width: 25rem;
+}
 .card .card-body .card-title {
     text-align: center;
     color: #e03a3c;
